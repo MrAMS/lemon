@@ -32,9 +32,9 @@
 /// \include lgf_demo.cc
 
 #include <iostream>
-#include <lemon/smart_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/lgf_writer.h>
+#include "lemon/smart_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/lgf_writer.h"
 
 using namespace lemon;
 

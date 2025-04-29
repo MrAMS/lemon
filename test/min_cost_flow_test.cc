@@ -20,17 +20,17 @@
 #include <fstream>
 #include <limits>
 
-#include <lemon/list_graph.h>
-#include <lemon/lgf_reader.h>
+#include "lemon/list_graph.h"
+#include "lemon/lgf_reader.h"
 
-#include <lemon/network_simplex.h>
-#include <lemon/capacity_scaling.h>
-#include <lemon/cost_scaling.h>
-#include <lemon/cycle_canceling.h>
+#include "lemon/network_simplex.h"
+#include "lemon/capacity_scaling.h"
+#include "lemon/cost_scaling.h"
+#include "lemon/cycle_canceling.h"
 
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/heap.h>
-#include <lemon/concept_check.h>
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/heap.h"
+#include "lemon/concept_check.h"
 
 #include "test_tools.h"
 
@@ -400,7 +400,7 @@ void runMcfGeqTests( Param param,
   Digraph gr0;
   MCF mcf0(gr0);
   mcf0.run(param);
-  check(mcf0.totalCost() == 0, "Wrong total cost");  
+  check(mcf0.totalCost() == 0, "Wrong total cost");
 }
 
 template < typename MCF, typename Param >

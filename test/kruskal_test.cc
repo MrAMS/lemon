@@ -20,13 +20,13 @@
 #include <vector>
 
 #include "test_tools.h"
-#include <lemon/maps.h>
-#include <lemon/kruskal.h>
-#include <lemon/list_graph.h>
+#include "lemon/maps.h"
+#include "lemon/kruskal.h"
+#include "lemon/list_graph.h"
 
-#include <lemon/concepts/maps.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/graph.h>
+#include "lemon/concepts/maps.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/graph.h"
 
 using namespace std;
 using namespace lemon;

@@ -31,19 +31,19 @@
 #include <algorithm>
 #include <set>
 #include <ctime>
-#include <lemon/list_graph.h>
-#include <lemon/random.h>
-#include <lemon/dim2.h>
-#include <lemon/bfs.h>
-#include <lemon/counter.h>
-#include <lemon/suurballe.h>
-#include <lemon/graph_to_eps.h>
-#include <lemon/lgf_writer.h>
-#include <lemon/arg_parser.h>
-#include <lemon/euler.h>
-#include <lemon/math.h>
-#include <lemon/kruskal.h>
-#include <lemon/time_measure.h>
+#include "lemon/list_graph.h"
+#include "lemon/random.h"
+#include "lemon/dim2.h"
+#include "lemon/bfs.h"
+#include "lemon/counter.h"
+#include "lemon/suurballe.h"
+#include "lemon/graph_to_eps.h"
+#include "lemon/lgf_writer.h"
+#include "lemon/arg_parser.h"
+#include "lemon/euler.h"
+#include "lemon/math.h"
+#include "lemon/kruskal.h"
+#include "lemon/time_measure.h"
 
 using namespace lemon;
 
@@ -415,7 +415,7 @@ inline void delaunay() {
           delete nbit->second->second;
           spikeheap.erase(nbit->second);
         }
-      
+
       beach.erase(nbit);
       beach.erase(bit);
       beach.erase(pbit);

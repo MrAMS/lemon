@@ -16,8 +16,8 @@
  *
  */
 
-#include <lemon/time_measure.h>
-#include <lemon/concept_check.h>
+#include "lemon/time_measure.h"
+#include "lemon/concept_check.h"
 
 using namespace lemon;
 

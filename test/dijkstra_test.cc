@@ -16,13 +16,13 @@
  *
  */
 
-#include <lemon/concepts/digraph.h>
-#include <lemon/smart_graph.h>
-#include <lemon/list_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/dijkstra.h>
-#include <lemon/path.h>
-#include <lemon/bin_heap.h>
+#include "lemon/concepts/digraph.h"
+#include "lemon/smart_graph.h"
+#include "lemon/list_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/dijkstra.h"
+#include "lemon/path.h"
+#include "lemon/bin_heap.h"
 
 #include "graph_test.h"
 #include "test_tools.h"

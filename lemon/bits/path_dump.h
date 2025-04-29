@@ -19,8 +19,8 @@
 #ifndef LEMON_BITS_PATH_DUMP_H
 #define LEMON_BITS_PATH_DUMP_H
 
-#include <lemon/core.h>
-#include <lemon/concept_check.h>
+#include "lemon/core.h"
+#include "lemon/concept_check.h"
 
 namespace lemon {
 
@@ -59,6 +59,10 @@ namespace lemon {
       RevArcIt(const PredMapPath& _path)
         : path(&_path), current(_path.target) {
         if (path->predMap[current] == INVALID) current = INVALID;
+      }
+
+      const typename Digraph::Arc arc() const {
+        return path->predMap[current];
       }
 
       operator const typename Digraph::Arc() const {

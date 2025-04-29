@@ -16,9 +16,9 @@
  *
  */
 
-#include <lemon/list_graph.h>
-#include <lemon/maps.h>
-#include <lemon/unionfind.h>
+#include "lemon/list_graph.h"
+#include "lemon/maps.h"
+#include "lemon/unionfind.h"
 #include "test_tools.h"
 
 using namespace lemon;

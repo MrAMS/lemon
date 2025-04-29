@@ -17,30 +17,30 @@
  */
 
 #include <sstream>
-#include <lemon/lp_skeleton.h>
+#include "lemon/lp_skeleton.h"
 #include "test_tools.h"
-#include <lemon/tolerance.h>
+#include "lemon/tolerance.h"
 
-#include <lemon/config.h>
+#include "lemon/config.h"
 
 #ifdef LEMON_HAVE_GLPK
-#include <lemon/glpk.h>
+#include "lemon/glpk.h"
 #endif
 
 #ifdef LEMON_HAVE_CPLEX
-#include <lemon/cplex.h>
+#include "lemon/cplex.h"
 #endif
 
 #ifdef LEMON_HAVE_SOPLEX
-#include <lemon/soplex.h>
+#include "lemon/soplex.h"
 #endif
 
 #ifdef LEMON_HAVE_CLP
-#include <lemon/clp.h>
+#include "lemon/clp.h"
 #endif
 
 #ifdef LEMON_HAVE_LP
-#include <lemon/lp.h>
+#include "lemon/lp.h"
 #endif
 using namespace lemon;
 

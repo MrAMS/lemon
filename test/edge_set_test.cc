@@ -19,13 +19,13 @@
 #include <iostream>
 #include <vector>
 
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/graph.h>
-#include <lemon/concept_check.h>
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/graph.h"
+#include "lemon/concept_check.h"
 
-#include <lemon/list_graph.h>
+#include "lemon/list_graph.h"
 
-#include <lemon/edge_set.h>
+#include "lemon/edge_set.h"
 
 #include "graph_test.h"
 #include "test_tools.h"

@@ -18,7 +18,7 @@
 
 #include <iostream>
 
-#include <lemon/error.h>
+#include "lemon/error.h"
 #include "test_tools.h"
 
 using namespace lemon;
@@ -37,7 +37,7 @@ using namespace lemon;
 
 //checking disabled asserts
 #define LEMON_DISABLE_ASSERTS
-#include <lemon/assert.h>
+#include "lemon/assert.h"
 
 void no_assertion_text_disable() {
   LEMON_ASSERT(true, "This is a fault message");
@@ -63,7 +63,7 @@ void my_assert_handler(const char*, int, const char*,
 }
 
 #define LEMON_CUSTOM_ASSERT_HANDLER my_assert_handler
-#include <lemon/assert.h>
+#include "lemon/assert.h"
 
 void no_assertion_text_custom() {
   LEMON_ASSERT(true, "This is a fault message");

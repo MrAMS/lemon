@@ -18,12 +18,12 @@
 
 #include <iostream>
 
-#include <lemon/list_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/path.h>
-#include <lemon/suurballe.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/heap.h>
+#include "lemon/list_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/path.h"
+#include "lemon/suurballe.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/heap.h"
 
 #include "test_tools.h"
 

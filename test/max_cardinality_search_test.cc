@@ -19,12 +19,12 @@
 #include <iostream>
 
 #include "test_tools.h"
-#include <lemon/smart_graph.h>
-#include <lemon/max_cardinality_search.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/maps.h>
-#include <lemon/concepts/heap.h>
-#include <lemon/lgf_reader.h>
+#include "lemon/smart_graph.h"
+#include "lemon/max_cardinality_search.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/maps.h"
+#include "lemon/concepts/heap.h"
+#include "lemon/lgf_reader.h"
 
 using namespace lemon;
 using namespace std;

@@ -18,12 +18,12 @@
 
 #include <iostream>
 
-#include <lemon/planarity.h>
+#include "lemon/planarity.h"
 
-#include <lemon/smart_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/connectivity.h>
-#include <lemon/dim2.h>
+#include "lemon/smart_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/connectivity.h"
+#include "lemon/dim2.h"
 
 #include "test_tools.h"
 

@@ -16,12 +16,12 @@
  *
  */
 
-#include <lemon/concepts/graph.h>
-#include <lemon/list_graph.h>
-#include <lemon/smart_graph.h>
-#include <lemon/full_graph.h>
-#include <lemon/grid_graph.h>
-#include <lemon/hypercube_graph.h>
+#include "lemon/concepts/graph.h"
+#include "lemon/list_graph.h"
+#include "lemon/smart_graph.h"
+#include "lemon/full_graph.h"
+#include "lemon/grid_graph.h"
+#include "lemon/hypercube_graph.h"
 
 #include "test_tools.h"
 #include "graph_test.h"

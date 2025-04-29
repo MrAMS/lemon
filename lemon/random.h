@@ -68,8 +68,8 @@
 #include <limits>
 #include <fstream>
 
-#include <lemon/math.h>
-#include <lemon/dim2.h>
+#include "lemon/math.h"
+#include "lemon/dim2.h"
 
 #ifndef WIN32
 #include <sys/time.h>
@@ -77,7 +77,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #else
-#include <lemon/bits/windows.h>
+#include "lemon/bits/windows.h"
 #endif
 
 ///\ingroup misc
@@ -249,8 +249,8 @@ namespace lemon {
 
         current = state + length;
 
-        register Word *curr = state + length - 1;
-        register long num;
+        Word *curr = state + length - 1;
+        long num;
 
         num = length - shift;
         while (num--) {

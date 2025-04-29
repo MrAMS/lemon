@@ -21,10 +21,10 @@
 #include <vector>
 #include <iterator>
 
-#include <lemon/smart_graph.h>
-#include <lemon/min_cost_arborescence.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/concepts/digraph.h>
+#include "lemon/smart_graph.h"
+#include "lemon/min_cost_arborescence.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/concepts/digraph.h"
 
 #include "test_tools.h"
 

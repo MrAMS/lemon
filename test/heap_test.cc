@@ -21,22 +21,22 @@
 #include <string>
 #include <vector>
 
-#include <lemon/concept_check.h>
-#include <lemon/concepts/heap.h>
+#include "lemon/concept_check.h"
+#include "lemon/concepts/heap.h"
 
-#include <lemon/smart_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/dijkstra.h>
-#include <lemon/maps.h>
+#include "lemon/smart_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/dijkstra.h"
+#include "lemon/maps.h"
 
-#include <lemon/bin_heap.h>
-#include <lemon/quad_heap.h>
-#include <lemon/dheap.h>
-#include <lemon/fib_heap.h>
-#include <lemon/pairing_heap.h>
-#include <lemon/radix_heap.h>
-#include <lemon/binomial_heap.h>
-#include <lemon/bucket_heap.h>
+#include "lemon/bin_heap.h"
+#include "lemon/quad_heap.h"
+#include "lemon/dheap.h"
+#include "lemon/fib_heap.h"
+#include "lemon/pairing_heap.h"
+#include "lemon/radix_heap.h"
+#include "lemon/binomial_heap.h"
+#include "lemon/bucket_heap.h"
 
 #include "test_tools.h"
 

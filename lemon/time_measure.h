@@ -24,7 +24,7 @@
 ///\brief Tools for measuring cpu usage
 
 #ifdef WIN32
-#include <lemon/bits/windows.h>
+#include "lemon/bits/windows.h"
 #else
 #include <unistd.h>
 #include <sys/times.h>
@@ -34,7 +34,7 @@
 #include <string>
 #include <fstream>
 #include <iostream>
-#include <lemon/math.h>
+#include "lemon/math.h"
 
 namespace lemon {
 
@@ -280,7 +280,7 @@ namespace lemon {
   ///Class for measuring the cpu time and real time usage of the process.
   ///It is quite easy-to-use, here is a short example.
   ///\code
-  /// #include<lemon/time_measure.h>
+  /// #include "lemon/time_measure.h"
   /// #include<iostream>
   ///
   /// int main()

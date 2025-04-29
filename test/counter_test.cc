@@ -16,7 +16,7 @@
  *
  */
 
-#include <lemon/counter.h>
+#include "lemon/counter.h"
 #include <vector>
 #include <sstream>
 

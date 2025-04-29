@@ -19,7 +19,7 @@
 ///\file
 ///\brief Some basic non-inline functions and static global data.
 
-#include<lemon/bits/windows.h>
+#include "lemon/bits/windows.h"
 
 #ifdef WIN32
 #ifndef WIN32_LEAN_AND_MEAN

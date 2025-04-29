@@ -16,7 +16,7 @@
  *
  */
 
-#include <lemon/random.h>
+#include "lemon/random.h"
 #include "test_tools.h"
 
 int seed_array[] = {1, 2};

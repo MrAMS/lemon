@@ -19,13 +19,13 @@
 #include <deque>
 #include <set>
 
-#include <lemon/concept_check.h>
-#include <lemon/concepts/maps.h>
-#include <lemon/maps.h>
-#include <lemon/list_graph.h>
-#include <lemon/smart_graph.h>
-#include <lemon/adaptors.h>
-#include <lemon/dfs.h>
+#include "lemon/concept_check.h"
+#include "lemon/concepts/maps.h"
+#include "lemon/maps.h"
+#include "lemon/list_graph.h"
+#include "lemon/smart_graph.h"
+#include "lemon/adaptors.h"
+#include "lemon/dfs.h"
 #include <algorithm>
 
 #include "test_tools.h"

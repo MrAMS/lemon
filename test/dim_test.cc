@@ -16,7 +16,7 @@
  *
  */
 
-#include <lemon/dim2.h>
+#include "lemon/dim2.h"
 #include <iostream>
 #include "test_tools.h"
 

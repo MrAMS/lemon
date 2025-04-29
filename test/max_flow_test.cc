@@ -19,13 +19,13 @@
 #include <iostream>
 
 #include "test_tools.h"
-#include <lemon/smart_graph.h>
-#include <lemon/preflow.h>
-#include <lemon/edmonds_karp.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/maps.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/elevator.h>
+#include "lemon/smart_graph.h"
+#include "lemon/preflow.h"
+#include "lemon/edmonds_karp.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/maps.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/elevator.h"
 
 using namespace lemon;
 

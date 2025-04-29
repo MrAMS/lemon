@@ -18,13 +18,13 @@
 
 #include <string>
 
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/graph.h>
-#include <lemon/concepts/bpgraph.h>
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/graph.h"
+#include "lemon/concepts/bpgraph.h"
 
-#include <lemon/list_graph.h>
-#include <lemon/smart_graph.h>
-#include <lemon/lgf_reader.h>
+#include "lemon/list_graph.h"
+#include "lemon/smart_graph.h"
+#include "lemon/lgf_reader.h"
 
 #include "test_tools.h"
 

@@ -33,12 +33,12 @@
 #include <fstream>
 #include <cstring>
 
-#include <lemon/smart_graph.h>
-#include <lemon/dimacs.h>
-#include <lemon/lgf_writer.h>
+#include "lemon/smart_graph.h"
+#include "lemon/dimacs.h"
+#include "lemon/lgf_writer.h"
 
-#include <lemon/arg_parser.h>
-#include <lemon/error.h>
+#include "lemon/arg_parser.h"
+#include "lemon/error.h"
 
 using namespace std;
 using namespace lemon;

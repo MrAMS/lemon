@@ -16,9 +16,9 @@
  *
  */
 
-#include <lemon/connectivity.h>
-#include <lemon/list_graph.h>
-#include <lemon/adaptors.h>
+#include "lemon/connectivity.h"
+#include "lemon/list_graph.h"
+#include "lemon/adaptors.h"
 
 #include "test_tools.h"
 

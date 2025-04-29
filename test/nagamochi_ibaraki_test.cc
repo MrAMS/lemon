@@ -18,12 +18,12 @@
 
 #include <sstream>
 
-#include <lemon/smart_graph.h>
-#include <lemon/adaptors.h>
-#include <lemon/concepts/graph.h>
-#include <lemon/concepts/maps.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/nagamochi_ibaraki.h>
+#include "lemon/smart_graph.h"
+#include "lemon/adaptors.h"
+#include "lemon/concepts/graph.h"
+#include "lemon/concepts/maps.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/nagamochi_ibaraki.h"
 
 #include "test_tools.h"
 

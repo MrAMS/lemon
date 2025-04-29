@@ -19,15 +19,15 @@
 #include <iostream>
 #include <sstream>
 
-#include <lemon/smart_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/path.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concept_check.h>
+#include "lemon/smart_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/path.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concept_check.h"
 
-#include <lemon/karp_mmc.h>
-#include <lemon/hartmann_orlin_mmc.h>
-#include <lemon/howard_mmc.h>
+#include "lemon/karp_mmc.h"
+#include "lemon/hartmann_orlin_mmc.h"
+#include "lemon/howard_mmc.h"
 
 #include "test_tools.h"
 

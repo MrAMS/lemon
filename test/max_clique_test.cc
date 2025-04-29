@@ -17,11 +17,11 @@
  */
 
 #include <sstream>
-#include <lemon/list_graph.h>
-#include <lemon/full_graph.h>
-#include <lemon/grid_graph.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/grosso_locatelli_pullan_mc.h>
+#include "lemon/list_graph.h"
+#include "lemon/full_graph.h"
+#include "lemon/grid_graph.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/grosso_locatelli_pullan_mc.h"
 
 #include "test_tools.h"
 

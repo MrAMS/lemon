@@ -19,11 +19,11 @@
 #include <iostream>
 
 #include "test_tools.h"
-#include <lemon/list_graph.h>
-#include <lemon/circulation.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/maps.h>
+#include "lemon/list_graph.h"
+#include "lemon/circulation.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/maps.h"
 
 using namespace lemon;
 

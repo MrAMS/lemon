@@ -21,8 +21,8 @@
 
 #include <set>
 
-#include <lemon/core.h>
-#include <lemon/maps.h>
+#include "lemon/core.h"
+#include "lemon/maps.h"
 
 #include "test_tools.h"
 

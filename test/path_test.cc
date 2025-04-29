@@ -19,12 +19,12 @@
 #include <string>
 #include <iostream>
 
-#include <lemon/concepts/path.h>
-#include <lemon/concepts/digraph.h>
-#include <lemon/concept_check.h>
+#include "lemon/concepts/path.h"
+#include "lemon/concepts/digraph.h"
+#include "lemon/concept_check.h"
 
-#include <lemon/path.h>
-#include <lemon/list_graph.h>
+#include "lemon/path.h"
+#include "lemon/list_graph.h"
 
 #include "test_tools.h"
 

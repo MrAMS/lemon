@@ -18,17 +18,17 @@
 
 #include <iostream>
 
-#include <lemon/full_graph.h>
-#include <lemon/math.h>
-#include <lemon/maps.h>
-#include <lemon/random.h>
-#include <lemon/dim2.h>
+#include "lemon/full_graph.h"
+#include "lemon/math.h"
+#include "lemon/maps.h"
+#include "lemon/random.h"
+#include "lemon/dim2.h"
 
-#include <lemon/nearest_neighbor_tsp.h>
-#include <lemon/greedy_tsp.h>
-#include <lemon/insertion_tsp.h>
-#include <lemon/christofides_tsp.h>
-#include <lemon/opt2_tsp.h>
+#include "lemon/nearest_neighbor_tsp.h"
+#include "lemon/greedy_tsp.h"
+#include "lemon/insertion_tsp.h"
+#include "lemon/christofides_tsp.h"
+#include "lemon/opt2_tsp.h"
 
 #include "test_tools.h"
 

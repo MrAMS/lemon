@@ -26,7 +26,7 @@
 #include <vector>
 #include <utility>
 #include <functional>
-#include <lemon/math.h>
+#include "lemon/math.h"
 
 namespace lemon {
 

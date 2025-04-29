@@ -16,9 +16,9 @@
  *
  */
 
-#include <lemon/euler.h>
-#include <lemon/list_graph.h>
-#include <lemon/adaptors.h>
+#include "lemon/euler.h"
+#include "lemon/list_graph.h"
+#include "lemon/adaptors.h"
 #include "test_tools.h"
 
 using namespace lemon;

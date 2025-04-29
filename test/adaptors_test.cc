@@ -19,18 +19,18 @@
 #include <iostream>
 #include <limits>
 
-#include <lemon/list_graph.h>
-#include <lemon/grid_graph.h>
-#include <lemon/bfs.h>
-#include <lemon/path.h>
+#include "lemon/list_graph.h"
+#include "lemon/grid_graph.h"
+#include "lemon/bfs.h"
+#include "lemon/path.h"
 
-#include <lemon/concepts/digraph.h>
-#include <lemon/concepts/graph.h>
-#include <lemon/concepts/graph_components.h>
-#include <lemon/concepts/maps.h>
-#include <lemon/concept_check.h>
+#include "lemon/concepts/digraph.h"
+#include "lemon/concepts/graph.h"
+#include "lemon/concepts/graph_components.h"
+#include "lemon/concepts/maps.h"
+#include "lemon/concept_check.h"
 
-#include <lemon/adaptors.h>
+#include "lemon/adaptors.h"
 
 #include "test/test_tools.h"
 #include "test/graph_test.h"

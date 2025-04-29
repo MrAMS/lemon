@@ -24,7 +24,7 @@
 ///
 /// \include arg_parser_demo.cc
 
-#include <lemon/arg_parser.h>
+#include "lemon/arg_parser.h"
 
 using namespace lemon;
 int main(int argc, char **argv)

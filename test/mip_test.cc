@@ -18,22 +18,22 @@
 
 #include "test_tools.h"
 
-#include <lemon/config.h>
+#include "lemon/config.h"
 
 #ifdef LEMON_HAVE_CPLEX
-#include <lemon/cplex.h>
+#include "lemon/cplex.h"
 #endif
 
 #ifdef LEMON_HAVE_GLPK
-#include <lemon/glpk.h>
+#include "lemon/glpk.h"
 #endif
 
 #ifdef LEMON_HAVE_CBC
-#include <lemon/cbc.h>
+#include "lemon/cbc.h"
 #endif
 
 #ifdef LEMON_HAVE_MIP
-#include <lemon/lp.h>
+#include "lemon/lp.h"
 #endif
 
 

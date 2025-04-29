@@ -19,11 +19,11 @@
 #include <iostream>
 
 #include "test_tools.h"
-#include <lemon/smart_graph.h>
-#include <lemon/concepts/graph.h>
-#include <lemon/concepts/maps.h>
-#include <lemon/lgf_reader.h>
-#include <lemon/gomory_hu.h>
+#include "lemon/smart_graph.h"
+#include "lemon/concepts/graph.h"
+#include "lemon/concepts/maps.h"
+#include "lemon/lgf_reader.h"
+#include "lemon/gomory_hu.h"
 #include <cstdlib>
 
 using namespace std;
