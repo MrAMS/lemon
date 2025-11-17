@@ -45,7 +45,7 @@ cc_library(
         "lemon/arg_parser.h",
         "lemon/assert.h",
         "lemon/error.h",
-    ],
+    ],
     copts = [
       "-fexceptions",
     ],
