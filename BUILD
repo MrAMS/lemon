@@ -40,15 +40,7 @@ cc_library(
       "lemon/lp_base.cc",
       "lemon/glpk.cc",
     ],
-    hdrs = [
-        "lemon/config.h",
-        "lemon/arg_parser.h",
-        "lemon/assert.h",
-        "lemon/error.h",
-        "lemon/random.h",
-        "lemon/math.h",
-        "lemon/dim2.h",
-    ],
+    hdrs = glob(["lemon/**/*.h"]),
     copts = [
       "-fexceptions",
     ],
