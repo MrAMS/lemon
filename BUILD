@@ -42,7 +42,10 @@ cc_library(
     ],
     hdrs = [
         "lemon/config.h",
-    ],
+        "lemon/arg_parser.h",
+        "lemon/assert.h",
+        "lemon/error.h",
+    ],
     copts = [
       "-fexceptions",
     ],
